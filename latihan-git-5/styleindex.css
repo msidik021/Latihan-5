@@ -1,0 +1,64 @@
+body {
+  font-family: "Share Tech Mono", monospace; /* A techy, monospaced font */
+  background: #0a0a1a; /* Very dark blue/black background */
+  color: #00ffff; /* Neon cyan for main text */
+  line-height: 1.8;
+  margin: 0;
+  padding: 30px;
+  /* Add a subtle dark grid or pattern in the background for more techy feel */
+  background-image: linear-gradient(
+      rgba(0, 255, 255, 0.05) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+h1 {
+  color: #00f0ff; /* Bright neon cyan for headings */
+  text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff; /* Glowing effect */
+  font-weight: normal;
+  letter-spacing: 2px; /* Spaced out letters for a tech feel */
+  border-bottom: 2px solid #00f0ff; /* Underline with glow */
+  padding-bottom: 10px;
+  display: inline-block; /* Ensures border only covers text width */
+}
+
+p {
+  color: #aaffff; /* Slightly softer cyan for paragraphs */
+  margin-bottom: 20px;
+}
+
+/* Navigation list styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  border-top: 1px solid #00ffff; /* A top border for the nav section */
+  padding-top: 15px;
+}
+
+li {
+  display: block; /* Make links appear on separate lines */
+  margin-bottom: 10px; /* Space between links */
+}
+
+a {
+  text-decoration: none;
+  color: #00ffff; /* Neon cyan for links */
+  background-color: #1a1a2e; /* Darker background for each link box */
+  padding: 10px 15px;
+  border: 1px solid #00ffff; /* A cyan border for each link */
+  border-radius: 5px; /* Slightly rounded corners */
+  transition: all 0.3s ease-in-out; /* Smooth transitions */
+  display: inline-block; /* Allows padding and width to be applied */
+  min-width: 120px; /* Minimum width for the link buttons */
+  text-align: center;
+  box-shadow: 0 0 8px #00ffff; /* Subtle glow around links */
+}
+
+a:hover {
+  background-color: #00ffff; /* Invert colors on hover */
+  color: #0a0a1a; /* Dark text on neon background */
+  box-shadow: 0 0 15px #00ffff, 0 0 25px #00ffff; /* Stronger glow on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}

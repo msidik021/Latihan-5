@@ -1,0 +1,26 @@
+table {
+  /* Set table and text color */
+  background-color: #1a1a2e; /* Dark, purplish background */
+  color: #00f0ff; /* Bright, cyan-like text color */
+  width: 100%;
+  border-collapse: collapse; /* Merges table cell borders */
+  font-family: "Consolas", monospace; /* A font that looks like code */
+  box-shadow: 0 0 20px #00f0ff; /* A cyan glow around the table */
+}
+
+/* Style for each table cell */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #00f0ff; /* A thin glowing line below each cell */
+}
+
+/* Style for the first column (Company Name, etc.) */
+td:first-child {
+  font-weight: bold;
+}
+
+/* Style for a row when you hover over it */
+tr:hover {
+  background-color: #2e2e50; /* Slightly lighter background on hover */
+  box-shadow: 0 0 10px #00f0ff; /* A subtle glow on hover */
+}
